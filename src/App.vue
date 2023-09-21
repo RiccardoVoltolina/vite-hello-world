@@ -1,4 +1,5 @@
 <script>
+  import Jumbotron from "./components/appHero.vue"
   import Title from "./components/title.vue"
   export default{
     // questo é il vs options object
@@ -10,6 +11,7 @@
     },
     components: {
       Title,
+      Jumbotron,
     },
   }
 </script>
@@ -17,6 +19,7 @@
 <template>
   <h1>{{ message }}</h1>
   <Title></Title>
+  <Jumbotron></Jumbotron>
    
 </template>
 
