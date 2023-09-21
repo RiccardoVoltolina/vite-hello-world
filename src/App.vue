@@ -1,11 +1,17 @@
 <script>
   export default{
     // questo é il vs options object
+    data() {
+      return {
+        message: 'Hello Vite!'
+      }
+    }
   }
 </script>
 
 <template>
-   hello vite
+  <h1>{{ message }}</h1>
+   
 </template>
 
 <style scoped>
