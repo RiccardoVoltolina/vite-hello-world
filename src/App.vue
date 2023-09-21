@@ -1,16 +1,22 @@
 <script>
+  import Title from "./components/title.vue"
   export default{
     // questo é il vs options object
     data() {
       return {
-        message: 'Hello Vite!'
+        message: 'Hello Vite!',
+
       }
-    }
+    },
+    components: {
+      Title,
+    },
   }
 </script>
 
 <template>
   <h1>{{ message }}</h1>
+  <Title></Title>
    
 </template>
 
